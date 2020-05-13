@@ -35,19 +35,58 @@ body {
 
 .html {
     width: 90%;
+    animation: html 2s;
 }
 
 .css {
     width: 65%;
+    animation: css 2s;
 }
 
 .jquery {
     width: 50%;
+    animation: jquery 2s;
 }
 
 .javascript {
     width: 70%;
+    animation: javascript 2s;
 } 
 
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes jquery {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
 
 
